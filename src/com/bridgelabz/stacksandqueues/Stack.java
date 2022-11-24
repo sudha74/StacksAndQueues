@@ -24,12 +24,12 @@ public class Stack<T> {
         return linkedList.pop();
     }
 
-    public T peek() {
+    public T peek(){
         return linkedList.peek();
     }
 
-    public boolean isEmpty() {
-        if (linkedList.size() == 0)
+    public boolean isEmpty(){
+        if(linkedList.size() == 0)
             return true;
         else
             return false;
